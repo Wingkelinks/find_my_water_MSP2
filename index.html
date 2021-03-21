@@ -18,6 +18,10 @@
 			crossorigin="anonymous"
 		/>
 		<link
+			href="https://fonts.googleapis.com/icon?family=Material+Icons"
+			rel="stylesheet"
+		/>
+		<link
 			rel="stylesheet"
 			href="https://unpkg.com/tachyons@4.12.0/css/tachyons.min.css"
 		/>
@@ -32,14 +36,20 @@
 		<header id="navigation">
 			<nav>
 				<div class="logo">
-					<a href="">Find My Water<i class="fas fa-map-marker-alt"></i></a>
+					<a href=""
+						>Find My Water<span
+							class="material-icons-outlined material-icons pt1"
+						>
+							location_on
+						</span></a
+					>
 				</div>
-				<div class="menu">
-					<a href="">Map</a>
-					<a href="">Top Locations</a>
+				<div class="menu pt3">
 					<a href="">Contact</a>
-					<a href="">About</a>
 					<a href="">Home</a>
+					<a href="">About</a>
+					<a href="">Top Spots</a>
+					<a href="">Map</a>
 					<a
 						href="javascript:void(0);"
 						class="hamburger-bar"
@@ -55,14 +65,36 @@
 		<!-- Water video section -->
 		<!-- Video by James Cheney, free from pexels.com  -->
 		<section id="video-section">
-			<h1>Find My Water</h1>
-			<i class="fas fa-map-marker-alt"></i>
+			<div class="brand-container">
+				<h1>Find My Water</h1>
+				<span class="material-icons-outlined material-icons">
+					location_on
+				</span>
+			</div>
+
 			<div class="video-container">
 				<video autoplay loop muted>
 					<source src="assets/media/watervid.mp4" type="video/mp4" />
 				</video>
 			</div>
 		</section>
+		<!-- // Water video section -->
+
+		<!-- About section -->
+		<section id="about-section">
+			<div class="about-container">
+				<h2>Find My Water</h2>
+				<p>
+					Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto
+					laboriosam, officia exercitationem sint sunt magni rem aut ab corporis
+					provident ea veritatis. Dolor harum, veritatis enim id quia fugit quos
+					omnis? Exercitationem sunt natus nobis omnis, molestiae repudiandae
+					laboriosam aspernatur est quam mollitia, maiores pariatur facere illum
+					assumenda quibusdam cum?
+				</p>
+			</div>
+		</section>
+		<!-- // About section -->
 		<script src="assets/js/main.js"></script>
 	</body>
 </html>
