@@ -3,16 +3,11 @@ body {
 	box-sizing: border-box;
 }
 
-/* Goggle Font Families for testing */
-
-/* font-family: "Bungee Shade", cursive;
-font-family: "Bungee Outline", cursive;
-font-family: "Delius Unicase", cursive;
-font-family: "Julius Sans One", sans-serif;
-font-family: "Montserrat Alternates", sans-serif;
-font-family: "Montserrat Subrayada", sans-serif;
-font-family: "Pangolin", cursive;
-font-family: "Raleway", sans-serif; */
+p,
+b,
+li {
+	font-family: "Pangolin", cursive;
+}
 
 /* Blue color pallete for testing (Coolors) */
 .test-classes {
@@ -36,7 +31,7 @@ font-family: "Raleway", sans-serif; */
 	color: #bf3648;
 }
 
-/* Navigation styling */
+/* Navigation styling - Home Page */
 /* Reference: w3schools.com (slide down bar & responsive nav documentation) */
 
 #navigation {
@@ -47,7 +42,7 @@ font-family: "Raleway", sans-serif; */
 	position: fixed;
 	display: block;
 	overflow: hidden;
-	z-index: 2;
+	z-index: 1;
 }
 
 /* Style the links inside the navigation bar */
@@ -82,6 +77,12 @@ font-family: "Raleway", sans-serif; */
 	display: none;
 }
 
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+	position: fixed;
+	top: 0 !important;
+}
+
 /* Video section styling */
 /* Reference: iEatWebsites YouTube channel (How to add a video background) */
 
@@ -95,7 +96,7 @@ font-family: "Raleway", sans-serif; */
 	overflow: hidden;
 }
 #video-section .brand-container {
-	z-index: 1;
+	z-index: 2;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -105,13 +106,13 @@ font-family: "Raleway", sans-serif; */
 	font-size: 6.5rem;
 	font-family: "Bungee Shade", cursive;
 	margin: 15px;
-	z-index: 1;
+	z-index: 2;
 	color: #caf0f8;
 }
 
 #video-section .brand-container span {
 	font-size: 5.5rem;
-	z-index: 1;
+	z-index: 3;
 	color: #caf0f8;
 }
 
@@ -120,4 +121,18 @@ font-family: "Raleway", sans-serif; */
 	top: 0;
 	left: 0;
 	width: 100%;
+}
+
+/* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+div#map {
+	min-height: 600px;
+	width: auto;
+}
+
+/* Footer */
+
+footer {
+	background-color: #bf36a4;
+	position: sticky;
 }
