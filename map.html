@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Montserrat&family=Pangolin&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+			integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu"
+			crossorigin="anonymous"
+		/>
+		<link
+			href="https://fonts.googleapis.com/icon?family=Material+Icons"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://unpkg.com/tachyons@4.12.0/css/tachyons.min.css"
+		/>
+
+		<link rel="stylesheet" href="assets/css/style.css" />
+		<link rel="stylesheet" href="assets/css/media.css" />
+		<title>Find My Water</title>
+	</head>
+	<body>
+		<!-- Navigation -->
+
+		<header id="navigation" class="sticky">
+			<nav>
+				<div class="logo pointer">
+					<a href="index.html"
+						>Find My Water<span
+							class="material-icons-outlined material-icons pt1"
+						>
+							location_on
+						</span></a
+					>
+				</div>
+				<div class="menu pt3">
+					<a class="pointer" href="contact.html">Contact</a>
+					<a class="pointer" href="index.html">Home</a>
+					<a class="pointer" href="#about-section">About</a>
+					<a class="pointer" href="topspots.html">Top Spots</a>
+					<a class="pointer" href="map.html">Map</a>
+					<a
+						href="javascript:void(0);"
+						class="hamburger-bar pointer"
+						onclick="myFunction()"
+					>
+						<i class="fas fa-bars"></i>
+					</a>
+				</div>
+			</nav>
+		</header>
+		<!-- /. Navigation -->
+
+		<!-- Map Section -->
+		<section id="map-section">
+			<div class="regions-container">
+				<ul class="list">
+					<li>Queensland</li>
+					<li>New South Wales</li>
+					<li>Victoria</li>
+					<li>South Australia</li>
+					<li>Western Australia</li>
+					<li>Australian Capital Territory</li>
+					<li>Northern Territory</li>
+				</ul>
+			</div>
+			<div id="map">I am the map</div>
+		</section>
+
+		<!-- / . Map Section -->
+		<!-- Footer -->
+		<footer class="ph6-l f4 w-100 h-100">
+			<div class="b--black pa1">
+				<div class="pa1">
+					<a
+						href="https://www.facebook.com/"
+						target="_blank"
+						class="link"
+						aria-hidden="true"
+					>
+						<i
+							class="fab fa-facebook f4-l f4-m f5 fw2 dib ph2 pv2 link pointer white bg-black-80 br3 dim"
+						></i>
+					</a>
+					<a
+						href="https://www.instagram.com/"
+						target="_blank"
+						class="link"
+						aria-hidden="true"
+					>
+						<i
+							class="fab fa-instagram f4-l f4-m f5 fw2 dib ph2 pv2 link pointer white bg-black-80 br3 dim"
+						></i>
+					</a>
+					<a
+						href="https://www.youtube.com/"
+						target="_blank"
+						class="link"
+						aria-hidden="true"
+					>
+						<i
+							class="fab fa-youtube-square f4-l f4-m f5 dib ph2 pv2 link pointer white bg-black-80 br3 dim"
+						></i>
+					</a>
+					<a href="contact.html" class="link">
+						<i
+							class="fas fa-envelope f4-l f4-m f5 dib ph2 pv2 link pointer white bg-black-80 br3 dim"
+						></i>
+					</a>
+
+					<p class="f5-l f5-m f7 fw4 dib black">
+						© 2021 <b class="fw6 light-blue">Find My Water</b>., All Rights
+						Reserved
+					</p>
+					<p class="f6-l f6-m f7 dib">
+						Website ©
+						<a
+							href="#"
+							class="pointer link grow b light-green hover-light-yellow"
+							>Wingkelinks</a
+						>
+					</p>
+				</div>
+			</div>
+		</footer>
+		<!-- /. Footer -->
+
+		<!-- Google Maps -->
+		<script src="https://unpkg.com/@google/markerclustererplus@4.0.1/dist/markerclustererplus.min.js"></script>
+		<script
+			src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDJGTk_ - rX - vQ_jtQIBTGlB3aDWc0bI5fg&callback=initMap&libraries=&v=weekly"
+			async
+			defer
+		></script>
+		<!-- / . Google Maps -->
+		<script src="assets/js/map.js"></script>
+	</body>
+</html>
