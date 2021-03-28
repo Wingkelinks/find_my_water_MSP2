@@ -155,6 +155,9 @@ div#map {
 #map-section .categories-container {
 	display: flex;
 	flex-direction: column;
+	height: 100vh;
+	width: 25%;
+	background-color: #a4bf36;
 }
 
 #map-section .categories-container button {
@@ -164,7 +167,8 @@ div#map {
 	height: 4rem;
 	border: 1px solid #023e8a;
 	background-color: #caf0f8;
-	border-radius: 1rem;
+	border-radius: 0.5rem;
+	margin: 0.2rem 0;
 }
 
 /* Top Spots Section */
@@ -183,6 +187,41 @@ div#map {
 }
 
 /* Top Spots Section */
+
+/* --------------------------- Contact Page */
+
+#contact-section {
+	margin-top: 5rem;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 1rem;
+	background: url(/assets/media/pat-whelen-BL7nmhTfSRk-unsplash.jpg) no-repeat
+		center center;
+	background-size: cover;
+}
+
+#contact-section > div > div {
+	background: linear-gradient(rgba(255, 66, 142, 0.1), rgba(0, 0, 0, 0.6));
+	background-size: cover;
+}
+
+#contact-section i {
+	color: #7ad7ff;
+}
+
+/* Overide tachyon styling to center button */
+#contact-section button {
+	font-family: "pangolin", cursive;
+	background-color: #7ad7ff;
+	color: #023e8a;
+}
+
+#contact-section button:hover {
+	background-color: #023e8a;
+	color: #7ad7ff;
+}
+
+/* --------------------------- Contact Page */
 
 /* Footer */
 
