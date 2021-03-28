@@ -42,7 +42,7 @@ li {
 	position: fixed;
 	display: block;
 	overflow: hidden;
-	z-index: 1;
+	z-index: 3;
 }
 
 /* Style the links inside the navigation bar */
@@ -112,7 +112,7 @@ li {
 
 #video-section .brand-container span {
 	font-size: 5.5rem;
-	z-index: 3;
+	z-index: 1;
 	color: #caf0f8;
 }
 
@@ -122,24 +122,67 @@ li {
 	left: 0;
 	width: 100%;
 }
-/* Map Section */
-/* Map height */
-div#map {
-	min-height: 600px;
-	width: auto;
-}
-#map-section {
-	padding: 5rem 3rem;
-	background-color: #36a2bd;
-	text-align: center;
+
+/* About Section */
+#about-section {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: row;
+	justify-content: space-evenly;
 }
 
+#about-section,
+h2,
+h3 {
+	font-family: "Montserrat", sans-serif;
+}
+
+/* About Section */
+
+/* Map Section */
+
+#map-section {
+	display: flex;
+}
+
+/* Map height */
+div#map {
+	min-height: 100vh;
+	width: 100%;
+}
+
+/* Map Category Buttons */
 #map-section .categories-container {
 	display: flex;
 	flex-direction: column;
 }
 
-/*  */
+#map-section .categories-container button {
+	font-family: "pangolin", cursive;
+	color: #bf36a4;
+	width: 100%;
+	height: 4rem;
+	border: 1px solid #023e8a;
+	background-color: #caf0f8;
+	border-radius: 1rem;
+}
+
+/* Top Spots Section */
+
+#topspots-section {
+	margin-top: 8rem;
+}
+
+#topspots-section > div.topspots-heading.tc > h3 {
+	font-family: "Bungee Shade", cursive;
+}
+
+/* Overide Tachyon z-index class to position images behind nav on scroll */
+.aspect-ratio--object {
+	z-index: -1;
+}
+
+/* Top Spots Section */
 
 /* Footer */
 

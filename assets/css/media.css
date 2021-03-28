@@ -37,4 +37,9 @@
 	#video-section .brand-container i {
 		font-size: 3.5rem;
 	}
+
+	#about-section {
+		display: flex;
+		flex-direction: column;
+	}
 }
