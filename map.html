@@ -45,7 +45,7 @@
 				<div class="menu pt3">
 					<a class="pointer" href="contact.html">Contact</a>
 					<a class="pointer" href="index.html">Home</a>
-					<a class="pointer" href="#about-section">About</a>
+					<a class="pointer" href="index.html#about-section">About</a>
 					<a class="pointer" href="topspots.html">Top Spots</a>
 					<a class="pointer" href="map.html">Map</a>
 					<a
@@ -62,29 +62,46 @@
 
 		<!-- Map Section -->
 		<section id="map-section">
-			<div class="categories-container">
-				<div>
-					<button type="button" id="categ-1" class="">New South Wales</button>
+			<div class="categories-container pt6 pl1 pr1">
+				<div class="instructions">
+					<h2 class="pa1 tc white-60">
+						Select a button to locate ocean pools by region
+					</h2>
 				</div>
 				<div>
-					<button type="button" id="categ-2" class="">Queensland</button>
+					<button type="button" id="categ-1" class="pointer f3-l">
+						New South Wales
+					</button>
 				</div>
 				<div>
-					<button type="button" id="categ-3" class="">Western Australia</button>
+					<button type="button" id="categ-2" class="pointer f3-l">
+						Queensland
+					</button>
 				</div>
 				<div>
-					<button type="button" id="categ-4" class="">South Australia</button>
+					<button type="button" id="categ-3" class="pointer f3-l">
+						Western Australia
+					</button>
 				</div>
 				<div>
-					<button type="button" id="categ-5" class="">Victoria</button>
+					<button type="button" id="categ-4" class="pointer f3-l">
+						South Australia
+					</button>
 				</div>
 				<div>
-					<button type="button" id="categ-6" class="">
+					<button type="button" id="categ-5" class="pointer f3-l">
+						Victoria
+					</button>
+				</div>
+				<div>
+					<button type="button" id="categ-6" class="pointer f3-l">
 						Northern Territory
 					</button>
 				</div>
 				<div>
-					<button type="button" id="categ-7" class="">Tasmania</button>
+					<button type="button" id="categ-7" class="pointer f3-l">
+						Tasmania
+					</button>
 				</div>
 			</div>
 			<div id="map"></div>
@@ -92,9 +109,9 @@
 
 		<!-- / . Map Section -->
 		<!-- Footer -->
-		<footer class="ph6-l f4 w-100 h-100">
-			<div class="b--black pa1">
-				<div class="pa1">
+		<footer class="ph6-l f4">
+			<div class="w-100 h-100 center b--black pa2-l pa2-m br3">
+				<div class="tc pa2">
 					<a
 						href="https://www.facebook.com/"
 						target="_blank"
@@ -130,12 +147,11 @@
 							class="fas fa-envelope f4-l f4-m f5 dib ph2 pv2 link pointer white bg-black-80 br3 dim"
 						></i>
 					</a>
-
-					<p class="f5-l f5-m f7 fw4 dib black">
+					<p class="f5-l f5-m f7 fw4 db tc black">
 						© 2021 <b class="fw6 light-blue">Find My Water</b>., All Rights
 						Reserved
 					</p>
-					<p class="f6-l f6-m f7 dib">
+					<p class="f6-l f6-m f7 db tc">
 						Website ©
 						<a
 							href="#"
@@ -146,7 +162,6 @@
 				</div>
 			</div>
 		</footer>
-		<!-- /. Footer -->
 
 		<!-- Google Maps -->
 		<script src="https://unpkg.com/@google/markerclustererplus@4.0.1/dist/markerclustererplus.min.js"></script>

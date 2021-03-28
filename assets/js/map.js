@@ -13,6 +13,8 @@ function myFunction() {
 // Code Institute course material,
 // Brad Traversy - Google Maps JS API Tutorial https://www.youtube.com/watch?v=Zxf1mnP5zcw,
 // Google Maps API documentation
+// Change marker color reference:
+// https://medium.com/free-code-camp/how-to-change-javascript-google-map-marker-color-8a72131d1207#:~:text=Add%20different%20color%20markers,-To%20add%20a&text=png%20at%20the%20end%20of,%2Fgreen%2Ddot.png%20.
 
 // Set default map to Australia
 function initMap() {
@@ -38,6 +40,9 @@ function mapNSW() {
 		position: NSW,
 		map: map,
 		animation: google.maps.Animation.DROP,
+		icon: {
+			url: "http://maps.google.com/mapfiles/ms/icons/green-dot.png",
+		},
 	});
 
 	// Adding NSW Markers
@@ -46,6 +51,7 @@ function mapNSW() {
 	var locations = [
 		// New South Wales Pools
 		// North Coast (5)
+
 		{ lat: -29.479114795697832, lng: 153.3636986108333 }, // Angourie Blue Pool
 		{ lat: -32.0707, lng: 152.5442 }, //Blackhead
 		{ lat: -32.179053928167896, lng: 152.51468527487043 }, //Forster Ocean Baths
@@ -144,6 +150,9 @@ function mapQLD() {
 		position: QLD,
 		map: map,
 		animation: google.maps.Animation.DROP,
+		icon: {
+			url: "http://maps.google.com/mapfiles/ms/icons/green-dot.png",
+		},
 	});
 
 	// Adding QLD Markers
@@ -184,6 +193,9 @@ function mapWA() {
 		position: WA,
 		map: map,
 		animation: google.maps.Animation.DROP,
+		icon: {
+			url: "http://maps.google.com/mapfiles/ms/icons/green-dot.png",
+		},
 	});
 
 	// Adding WA Markers
@@ -224,6 +236,9 @@ function mapSA() {
 		position: SA,
 		map: map,
 		animation: google.maps.Animation.DROP,
+		icon: {
+			url: "http://maps.google.com/mapfiles/ms/icons/green-dot.png",
+		},
 	});
 
 	// Adding SA Markers
@@ -261,6 +276,9 @@ function mapVIC() {
 		position: VIC,
 		map: map,
 		animation: google.maps.Animation.DROP,
+		icon: {
+			url: "http://maps.google.com/mapfiles/ms/icons/green-dot.png",
+		},
 	});
 
 	// Adding VIC Markers
@@ -298,6 +316,9 @@ function mapNT() {
 		position: NT,
 		map: map,
 		animation: google.maps.Animation.DROP,
+		icon: {
+			url: "http://maps.google.com/mapfiles/ms/icons/green-dot.png",
+		},
 	});
 
 	// Adding NT Markers
@@ -335,6 +356,9 @@ function mapTAS() {
 		position: TAS,
 		map: map,
 		animation: google.maps.Animation.DROP,
+		icon: {
+			url: "http://maps.google.com/mapfiles/ms/icons/green-dot.png",
+		},
 	});
 
 	// Adding TAS Markers
