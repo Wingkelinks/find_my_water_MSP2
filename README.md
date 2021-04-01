@@ -94,7 +94,9 @@ The primary purpose of the website is to build an attractive and functional site
 - **Strong water/ocean theme** inspired a matching colour pallete, i.e. variations of blues in conjunction with complimentary and triadic colours including, oranges, pinks and greens. 
 [Coolors](https://coolors.co/) was used to create a pallete by sampling colors from an image used in the website. 
 
-- For **font selection** [Google Fonts](https://fonts.google.com/) was used. A variety of fonts were tested before settling on "Montserrat Subrayada" as a leading font, which is paired with "Montserrat Alternates" as a sub-font. The 'underlined' design seemed to contrast the movement of the water video on the home page. 
+- For **font selection** [Google Fonts](https://fonts.google.com/) was used. A variety of fonts were tested before settling on "Bungee Shade" as a leading font, which is paired with "Pangolin" as a sub-font. The 'outlined' design on Bungee Shade provides strong contrast against the movement of the water video on the home page. 
+
+- [Google Fonts: Material Icons](https://fonts.google.com/icons) were used to implement the 'map marker' that accompanies the title in the navbar and home page. This icon was chosen not only for it's reference to mapping, searching and discovering, but also because it hints at a water droplet, albeit an upside down one.  
 
 ##
 
@@ -185,21 +187,9 @@ Other integrations include:
 
 ## Debugging process & known bugs/issues
 
-- Some layout issues were encountered on the menu and contact page, when certain breakpoints were hit. This was resolved using Flexbox. [Tachyons](https://tachyons.io/docs/layout/flexbox/) (the CSS framework used), has it's own integrated Flex classes which were easy to combine with the existing code.
+- 
 
-- On the menu page, the images all have hidden children which become visible on hover. The children are list items (ingredients). To ensure that the children's containers didn't exceed that of the parent element, restricting the font-size to one size only on all devices was necessary.
 
-- The hidden children don't appear on a mobile device, because they rely on the :hover selector.
-
-- The hero image used in the header on the about page, sits behind the nav, which results in the top part of the image being cut off from view. For this reason, an image that wouldn't be negatively effected had to be chosen.
-
-- Despite passing the [Mobile-Friendly Test](https://search.google.com/test/mobile-friendly), the background image of the header was blurred on small devices (when viewed via the published site). The issue was resolved with the help of Stack Overflow. The **fixed** property had to be removed from the background image.
-
-- A margin kept appearing above the shipping info section on the contact page, for screens in between tablet and small laptop sizes. This resulted in having to change the media query breakpoints for both sizes.
-
-- An over-scrolling/bouncing effect became apparent once a lot of the code was in place. After a lot of searching, the following resource on [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-behavior) proved useful. The issue was fixed by setting the **overscroll-behaviour to 'none'** on the body & html elements, as well as setting the **scroll-behaviour to 'smooth'** on the html.
-
-- First attempts to publish the website use Github Pages failed. After posting the problem on the Slack forum, @JimLynx_lead provided insight. The issue was fixed by moving all HTML files of the assets folder and into the root folder.
 
 ## Deployment
 
