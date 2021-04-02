@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Montserrat&family=Pangolin&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+			integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu"
+			crossorigin="anonymous"
+		/>
+		<link
+			href="https://fonts.googleapis.com/icon?family=Material+Icons"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://unpkg.com/tachyons@4.12.0/css/tachyons.min.css"
+		/>
+
+		<link rel="stylesheet" href="assets/css/style.css" />
+		<link rel="stylesheet" href="assets/css/media.css" />
+		<title>Find My Water</title>
+	</head>
+	<body>
+		<!-- Navigation -->
+
+		<header id="navigation" class="sticky">
+			<nav>
+				<div class="logo pointer">
+					<a href="index.html"
+						>Find My Water<span
+							class="material-icons-outlined material-icons pt1"
+						>
+							location_on
+						</span></a
+					>
+				</div>
+				<div class="menu pt3">
+					<a class="pointer" href="contact.html">Contact</a>
+					<a class="pointer" href="resources.html">Resources</a>
+					<a class="pointer" href="index.html#about-section">About</a>
+					<a class="pointer" href="topspots.html">Top Spots</a>
+					<a class="pointer" href="map.html">Map</a>
+					<a
+						href="javascript:void(0);"
+						class="hamburger-bar pointer"
+						onclick="menuRespond()"
+					>
+						<i class="fas fa-bars"></i>
+					</a>
+				</div>
+			</nav>
+		</header>
+		<!-- /. Navigation -->
+
+		<!-- News Section -->
+		<!-- Referenced Tachyons Article Lists Components -->
+
+		<section id="news-section" class="mw7 center">
+			<h2 class="fw9 ph3 lh-copy ph0-l bb b--dark-blue ttu dark-blue pb3">
+				Dive in for More
+			</h2>
+
+			<article class="bb b--black-10">
+				<a
+					class="db pv4 ph3 ph0-l no-underline black dim"
+					href="https://iview.abc.net.au/show/pool"
+					target="_blank"
+				>
+					<div class="flex flex-column flex-row-ns">
+						<div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
+							<img
+								src="assets/media/the_pool.jpeg"
+								class="db"
+								alt="Boy in a pool underwater"
+							/>
+						</div>
+						<div class="w-100 w-60-ns pl3-ns">
+							<h1 class="f3-l f4 fw1 mt0 lh-title">
+								The Pool - A Must Watch Documentary on ABC's iView
+							</h1>
+							<p class="f5 lh-copy">
+								Pools are a defining part of our national identity. Evoking deep
+								nostalgia and childhood memories, this two-part documentary
+								takes a look at the Australian identity through the prism of the
+								pool...
+							</p>
+							<p class="f6 lh-copy mv0">By the ABC</p>
+						</div>
+					</div>
+				</a>
+			</article>
+			<article class="bb b--black-10">
+				<a
+					class="db pv4 ph3 ph0-l no-underline black dim"
+					href="https://www.nicolelarkin.com/the-wild-edge"
+					target="_blank"
+				>
+					<div class="flex flex-column flex-row-ns">
+						<div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
+							<img
+								src="assets/media/the_wild_edge.png"
+								class="db"
+								alt="The Wild Edge Website Main Image"
+							/>
+						</div>
+						<div class="w-100 w-60-ns pl3-ns">
+							<h1 class="f3-l f4 fw1 mt0 lh-title">
+								The Wild Edge - A Survey of Ocean Pools in NSW  <br>By Nicole Larkin</br > 
+							</h1>
+							<p class="f5 lh-copy">
+								Larkin is interested in the legacy of NSW's ocean pools from a design and architectural perspective. Her project, The Wild Edge, seeks to document these historical structures as a way of conserving their legacy and supporting their revival. 
+							</p>
+						</div>
+					</div>
+				</a>
+			</article>
+			<article class="bb b--black-10">
+				<a
+					class="db pv4 ph3 ph0-l no-underline black dim"
+					href="https://allintooceanpoolsinc.org/"
+					target="_blank"
+				>
+					<div class="flex flex-column flex-row-ns">
+						<div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
+							<img
+								src="assets/media/ocean_pools_scrnshot.png"
+								class="db ba b--black-80"
+								alt="Boy in a pool underwater"
+							/>
+						</div>
+						<div class="w-100 w-60-ns pl3-ns">
+							<h1 class="f3-l f4 fw1 mt0 lh-title">All Into Ocean Pools</h1>
+							<p class="f5 lh-copy">
+								A non-profit organisation orginating in Perth, Western
+								Australia. The website is a wonderful resource, dedictated to
+								all things ocean pools.
+							</p>
+						</div>
+					</div>
+				</a>
+			</article>
+			<article class="bb b--black-10">
+				<a class="db pv4 ph3 ph0-l no-underline black dim" href="#0">
+					<div class="flex flex-column flex-row-ns">
+						<div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
+							<img
+								src="assets/media/bogeyhole_kerrin_thomas.jpeg"
+								class="db"
+								alt="Bogey Hole ocean pool with swimmers."
+							/>
+						</div>
+						<div class="w-100 w-60-ns pl3-ns">
+							<h1 class="f3-l f4 fw1 mt0 lh-title">
+								50 years since Australia's last ocean pool was built, coastal
+								communities are calling for more
+							</h1>
+							<p class="f5-l lh-copy">
+								It has been a long time since an ocean pool was built in
+								Australia — about half a century — but that could be about to
+								change. Campaigns are underway in two towns on the New South
+								Wales north coast to build an ocean pool. But why did we start
+								building them, and why did we stop?
+							</p>
+							<p class="f6 lh-copy mv0">By Kerrin Thomas and Luisa Rubbo</p>
+						</div>
+					</div>
+				</a>
+			</article>
+			<article class="bb b--black-10">
+				<a class="db pv4 ph3 ph0-l no-underline black dim" href="#0">
+					<div class="flex flex-column flex-row-ns">
+						<div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
+							<img
+								src="assets/media/nicole_larkin.jpg"
+								class="db"
+								alt="Photo of Nicole Larkin"
+							/>
+						</div>
+						<div class="w-100 w-60-ns pl3-ns">
+							<h1 class="f3-l f4 fw1 mt0 lh-title">
+								Water Worlds: the magic of New South Wales' ocean pools
+							</h1>
+							<p class="f5-l lh-copy">
+								For five years, Nicole Larkin has been documenting the state’s
+								unique abundance of coastal pools. Guardian Australia has mapped
+								the Sydney-based architect's efforts, revealing sites of human
+								ingenuity, and natural beauty...
+							</p>
+							<p class="f6 lh-copy mv0">By Nicole Larkin</p>
+						</div>
+					</div>
+				</a>
+			</article>
+			<article class="bb b--black-10">
+				<a class="db pv4 ph3 ph0-l no-underline black dim" href="#0">
+					<div class="flex flex-column flex-row-ns">
+						<div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
+							<img
+								src="assets/media/kenton_webb_d_heyne.jpeg"
+								class="db"
+								alt="Photo of Kenton Webb in front of an ocean pool."
+							/>
+						</div>
+						<div class="w-100 w-60-ns pl3-ns">
+							<h1 class="f3-l f4 fw1 mt0 lh-title">
+								Great lengths: Some of Australia's most passionate pool tourists
+								show dedication when it comes to getting wet.
+							</h1>
+							<p class="f5 lh-copy">
+								It is a quest to get wet that will take about 50 years. Kenton
+								Webb is halfway there. "The goal is to swim a kilometre, in
+								1,000 different pools," he said. "It's 1,000 metres in 1,000
+								pools."
+							</p>
+							<p class="f6 lh-copy mv0">By Elloise Farrow-Smith</p>
+						</div>
+					</div>
+				</a>
+			</article>
+			<article class="bt bb b--black-10">
+				<a
+					class="db pv4 ph3 ph0-l no-underline black dim"
+					href="https://www.smh.com.au/lifestyle/gender/it-s-a-special-place-but-i-don-t-swim-in-this-sydney-ocean-pool-paradise-anymore-20210326-p57eep.html"
+					target="_blank"
+				>
+					<div class="flex flex-column flex-row-ns">
+						<div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
+							<img
+								src="/assets/media/mcivers_kate_geraghty.webp"
+								class="db"
+								alt="McIver's Ladies Baths in Coogee, Sydney."
+							/>
+						</div>
+						<div class="w-100 w-60-ns pl3-ns">
+							<h1 class="f3-l f4 fw1 mt0 lh-title">
+								Ladies-only pool ousts management after 'ban' on transgender
+								women
+							</h1>
+							<p class="f5 lh-copy">
+								The managing committee of the Sydney ladies-only swimming pool
+								at the centre of a controversy earlier this year for threatening
+								to ban transgender women who had not undergone reassignment
+								surgery has been ousted with a new interim president and
+								committee elected to run it...
+							</p>
+							<p class="f6 lh-copy mv0">By Helen Pitt</p>
+						</div>
+					</div>
+				</a>
+			</article>
+		</section>
+		<!-- /. News Section -->
+		<!-- Footer -->
+		<footer class="ph6-l f4">
+			<div class="w-100 h-100 center b--black pa2-l pa2-m br3">
+				<div class="tc pa2">
+					<a
+						href="https://www.facebook.com/"
+						target="_blank"
+						class="link"
+						aria-hidden="true"
+					>
+						<i
+							class="fab fa-facebook f4-l f4-m f5 fw2 dib ph2 pv2 link pointer white bg-black-80 br3 dim"
+						></i>
+					</a>
+					<a
+						href="https://www.instagram.com/"
+						target="_blank"
+						class="link"
+						aria-hidden="true"
+					>
+						<i
+							class="fab fa-instagram f4-l f4-m f5 fw2 dib ph2 pv2 link pointer white bg-black-80 br3 dim"
+						></i>
+					</a>
+					<a
+						href="https://www.youtube.com/"
+						target="_blank"
+						class="link"
+						aria-hidden="true"
+					>
+						<i
+							class="fab fa-youtube-square f4-l f4-m f5 dib ph2 pv2 link pointer white bg-black-80 br3 dim"
+						></i>
+					</a>
+					<a href="contact.html" class="link">
+						<i
+							class="fas fa-envelope f4-l f4-m f5 dib ph2 pv2 link pointer white bg-black-80 br3 dim"
+						></i>
+					</a>
+					<p class="f5-l f5-m f7 fw4 db tc black">
+						© 2021 <b class="fw6 light-blue">Find My Water</b>., All Rights
+						Reserved
+					</p>
+					<p class="f6-l f6-m f7 db tc">
+						Website ©
+						<a
+							href="#"
+							class="pointer link grow b light-green hover-light-yellow"
+							>Wingkelinks</a
+						>
+					</p>
+				</div>
+			</div>
+		</footer>
+
+		<script src="assets/js/menu.js"></script>
+	</body>
+</html>
