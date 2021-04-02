@@ -1,14 +1,3 @@
-// Toggle between adding and removing the "responsive" class to navigation when the user clicks on the hamburger bar //
-
-function myFunction() {
-	var x = document.getElementById("nav-normal");
-	if (x.className === "hamburger-bar") {
-		x.className += " responsive";
-	} else {
-		x.className = "hamburger-bar";
-	}
-}
-
 // Resources referenced for map integration:
 // Code Institute course material,
 // Sam Codes - JS Google Maps API Tutorial: https://www.youtube.com/watch?v=uPhWSyRqQDA&t=2597s,
@@ -28,7 +17,7 @@ function initMap() {
 	};
 
 	//Default map of Australia
-	map = new google.maps.Map(document.getElementById("map"), options);
+	var map = new google.maps.Map(document.getElementById("map"), options);
 
 	// Set map to New South Wales on button click
 	document.getElementById("categ-1").addEventListener("click", mapNSW);
@@ -153,6 +142,11 @@ function initMap() {
 				// Dee Why Rockpool
 				location: { lat: -33.75495357633734, lng: 151.2990800842935 },
 				content: `<h3>Dee Why Rockpool</h3>`,
+			},
+			{
+				// Fairlight
+				location: { lat: -33.798500579895574, lng: 151.27638287929017 },
+				content: `<h3>Fairlight Tidal Pool</h3>`,
 			},
 			{
 				// Fairy Bower Ocean Pool
@@ -791,75 +785,6 @@ function initMap() {
 		}
 
 		// Add all other NT markers
-		function addMarker(property) {
-			var marker = new google.maps.Marker({
-				position: property.location,
-				map: map,
-				mapId: "c43ed644e130993f",
-			});
-
-			//Check for custom icon
-			if (property.imageIcon) {
-				//set icon
-				marker.setIcon(property.imageIcon);
-			}
-
-			// Check for content to display info windows on markers
-			if (property.content) {
-				// Display Info Windows
-				var detailWindow = new google.maps.InfoWindow({
-					content: property.content,
-				});
-
-				marker.addListener("mouseover", () => {
-					detailWindow.open(map, marker);
-				});
-
-				marker.addListener("mouseout", () => {
-					detailWindow.close(map, marker);
-				});
-			}
-		}
-	}
-
-	// Set map to Tasmania on button click
-	document.getElementById("categ-7").addEventListener("click", mapTAS);
-
-	function mapTAS() {
-		var TAS = { lat: -41.8497075251421, lng: 146.4572132342973 };
-		var map = new google.maps.Map(document.getElementById("map"), {
-			zoom: 6,
-			center: TAS,
-			mapId: "c43ed644e130993f",
-		});
-
-		// Add TAS Main Marker
-		var marker = new google.maps.Marker({
-			position: TAS,
-			map: map,
-			animation: google.maps.Animation.DROP,
-			icon: {
-				url:
-					"https://img.icons8.com/clouds/100/000000/outdoor-swimming-pool.png",
-			},
-		});
-
-		// Add TAS markers to array
-		let MarkerArray = [
-			{
-				location: { lat: -41.8497075251421, lng: 146.4572132342973 },
-				imageIcon:
-					"https://img.icons8.com/clouds/100/000000/outdoor-swimming-pool.png",
-				content: `<h1>Tasmania</h1><h2></h2>`,
-			},
-		];
-
-		// Loop through markers
-		for (let i = 0; i < MarkerArray.length; i++) {
-			addMarker(MarkerArray[i]);
-		}
-
-		// Add all other TAS markers
 		function addMarker(property) {
 			var marker = new google.maps.Marker({
 				position: property.location,
