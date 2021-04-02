@@ -44,14 +44,14 @@
 				</div>
 				<div class="menu pt3">
 					<a class="pointer" href="contact.html">Contact</a>
-					<a class="pointer" href="index.html">Home</a>
+					<a class="pointer" href="news.html">News</a>
 					<a class="pointer" href="index.html#about-section">About</a>
 					<a class="pointer" href="topspots.html">Top Spots</a>
 					<a class="pointer" href="map.html">Map</a>
 					<a
 						href="javascript:void(0);"
 						class="hamburger-bar pointer"
-						onclick="myFunction()"
+						onclick="menuRespond()"
 					>
 						<i class="fas fa-bars"></i>
 					</a>
@@ -62,45 +62,40 @@
 
 		<!-- Map Section -->
 		<section id="map-section">
-			<div class="categories-container pt6 pl1 pr1">
+			<div class="categories-container pa2">
 				<div class="instructions">
-					<h2 class="pa1 tc white-60">
-						Select a button to locate ocean pools by region
+					<h2 class="pa1 f3-l tc white-60">
+						Locate Australia's Ocean Pools by Region
 					</h2>
 				</div>
 				<div>
-					<button type="button" id="categ-1" class="pointer f3-l">
+					<button type="button" id="categ-1" class="pointer f3">
 						New South Wales
 					</button>
 				</div>
 				<div>
-					<button type="button" id="categ-2" class="pointer f3-l">
+					<button type="button" id="categ-2" class="pointer f3">
 						Queensland
 					</button>
 				</div>
 				<div>
-					<button type="button" id="categ-3" class="pointer f3-l">
+					<button type="button" id="categ-3" class="pointer f3">
 						Western Australia
 					</button>
 				</div>
 				<div>
-					<button type="button" id="categ-4" class="pointer f3-l">
+					<button type="button" id="categ-4" class="pointer f3">
 						South Australia
 					</button>
 				</div>
 				<div>
-					<button type="button" id="categ-5" class="pointer f3-l">
+					<button type="button" id="categ-5" class="pointer f3">
 						Victoria
 					</button>
 				</div>
 				<div>
-					<button type="button" id="categ-6" class="pointer f3-l">
+					<button type="button" id="categ-6" class="pointer f3">
 						Northern Territory
-					</button>
-				</div>
-				<div>
-					<button type="button" id="categ-7" class="pointer f3-l">
-						Tasmania
 					</button>
 				</div>
 			</div>
@@ -171,6 +166,7 @@
 			defer
 		></script>
 		<!-- / . Google Maps -->
+		<script src="assets/js/menu.js"></script>
 		<script src="assets/js/map.js"></script>
 	</body>
 </html>
