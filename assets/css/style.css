@@ -9,7 +9,7 @@ li {
 	font-family: "Pangolin", cursive;
 }
 
-/* Blue color pallete for testing (Coolors) */
+/* ---------------------------- Blue color pallete */
 .test-classes {
 	color: #36a2bd;
 	color: #023e8a;
@@ -22,7 +22,7 @@ li {
 	color: #caf0f8;
 }
 
-/* Complimentary color pallete for testing (Coolors) */
+/* ---------------------------- Complimentary color pallete */
 .test-classes {
 	color: #bf36a4;
 	color: #a4bf36;
@@ -31,7 +31,33 @@ li {
 	color: #bf3648;
 }
 
-/* Navigation styling - Home Page */
+/* ---------------------------- Bottom line styles */
+.bottom-line {
+	height: 2px;
+	width: 3rem;
+	background: #ff428e;
+	display: block;
+	margin: 0 auto 1rem auto;
+}
+
+.bottom-line2 {
+	height: 2px;
+	width: 3rem;
+	background: #023e8a;
+	display: block;
+	margin: 0 auto 1rem auto;
+}
+
+.bottom-line3 {
+	height: 2px;
+	width: 3rem;
+	background: #bf7f36;
+	display: block;
+	margin: 0 auto 1rem auto;
+}
+/* ---------------------------- Bottom line styles */
+
+/* ---------------------------- Navigation styling - Home Page */
 /* Reference: w3schools.com (slide down bar & responsive nav documentation) */
 
 #navigation {
@@ -79,11 +105,10 @@ li {
 
 /* The sticky class is added to navbars on all other html pages except for index */
 .sticky {
-	position: fixed;
 	top: 0 !important;
 }
 
-/* Video section styling */
+/* ---------------------------- Video section styling */
 /* Reference: iEatWebsites YouTube channel (How to add a video background) */
 
 #video-section {
@@ -123,7 +148,7 @@ li {
 	width: 100%;
 }
 
-/* About Section */
+/* ---------------------------- About Section */
 #about-section {
 	display: flex;
 	min-height: 100vh;
@@ -139,7 +164,7 @@ h3 {
 
 /* About Section */
 
-/* Map Section */
+/* ---------------------------- Map Section */
 
 #map-section {
 	display: flex;
@@ -156,8 +181,12 @@ div#map {
 	display: flex;
 	flex-direction: column;
 	height: 100vh;
-	width: 25%;
+	width: 40%;
 	background-color: #a4bf36;
+}
+
+#map-section .instructions {
+	padding-top: 5rem;
 }
 
 #map-section .categories-container button {
@@ -168,10 +197,10 @@ div#map {
 	border: 1px solid #023e8a;
 	background-color: #caf0f8;
 	border-radius: 0.5rem;
-	margin: 0.2rem 0;
+	margin: 0.4rem 0;
 }
 
-/* Top Spots Section */
+/* ---------------------------- Top Spots Section */
 
 #topspots-section {
 	margin-top: 8rem;
@@ -192,17 +221,22 @@ div#map {
 
 #contact-section {
 	margin-top: 5rem;
-	display: grid;
-	grid-template-columns: repeat(2, 1fr);
-	grid-gap: 1rem;
 	background: url(/assets/media/pat-whelen-BL7nmhTfSRk-unsplash.jpg) no-repeat
 		center center;
 	background-size: cover;
 }
 
 #contact-section > div > div {
-	background: linear-gradient(rgba(255, 66, 142, 0.1), rgba(0, 0, 0, 0.6));
-	background-size: cover;
+	background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(108, 20, 119, 0.2));
+}
+
+#contact-section h2,
+h3,
+p,
+input,
+textarea {
+	font-weight: 900;
+	font-family: "pangolin", cursive;
 }
 
 #contact-section i {
@@ -212,18 +246,18 @@ div#map {
 /* Overide tachyon styling to center button */
 #contact-section button {
 	font-family: "pangolin", cursive;
-	background-color: #7ad7ff;
-	color: #023e8a;
+	background-color: #023e8a;
+	color: #bf7f36;
 }
 
 #contact-section button:hover {
-	background-color: #023e8a;
-	color: #7ad7ff;
+	background-color: #bf7f36;
+	color: #023e8a;
 }
 
 /* --------------------------- Contact Page */
 
-/* Footer */
+/* ---------------------------- Footer */
 
 footer {
 	background-color: #bf36a4;
