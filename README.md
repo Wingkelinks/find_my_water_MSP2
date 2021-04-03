@@ -165,6 +165,10 @@ Other integrations include:
 
 - Used to check that my HTML and CSS markup was in order and in line with best practice methods.
 
+### [JSHint](https://jshint.com/)
+
+- Used to detect problems and errors in JavaScript code. 
+
 ### [Lighthouse](https://developers.google.com/web/tools/lighthouse)
 
 - Used to check performance, accessibility and SEO potential of the website.
@@ -187,6 +191,7 @@ Other integrations include:
 
 ## Debugging process & known bugs/issues
 
+- Incorporating Marker Clustering into the map - currently unresolved issue. 
 - 
 
 
@@ -199,8 +204,8 @@ Other integrations include:
 
 > To view the webiste via the url:
 
-- click on this [link](https://wingkelinks.github.io/anitas_kitchen_groove_MSP1/) or
-- go to the repository in [my Github account](https://github.com/Wingkelinks/anitas_kitchen_groove_MSP1) and click on the url, located on the top left, underneath the 'About' section.
+- click on this [link](https://wingkelinks.github.io/find_my_water_MSP2/) or
+- go to the repository in [my Github account](https://github.com/Wingkelinks/find_my_water_MSP2) and click on the url, located on the top left, underneath the 'About' section.
 
 ## Credits
 
@@ -210,6 +215,8 @@ Other integrations include:
   - How to create responsive navigation
 - [iEatWebsites](https://www.youtube.com/watch?v=05ZHUuQVvJM)
   - How to Add a Video Background with HTML & CSS (used on home page)
+- [Sam Codes](https://www.youtube.com/watch?v=uPhWSyRqQDA)
+  - JS Google Maps API Tutorial 
 
 ## Other resources
 
