@@ -203,7 +203,7 @@ function mapNSW() {
 			</div>
 			<h3 style="color:#bf3648;">4 Lumsdaine Dr, Freshwater NSW 2096</h3>
 			<div>
-			<img src="../assets/media/NSW_freshwater.jpg" width="200" height="150">
+			<img src="assets/media/NSW_freshwater.jpg" width="200" height="150">
 			</div>`,
 		},
 		{
@@ -406,7 +406,7 @@ function mapNSW() {
 		    <a href="https://www.sapphirecoast.com.au/point-of-interest/bermagui-blue-pool-2/" target="_blank"><h2 style="font-size:1.3rem;color:#023e8a;"><b>Bermagui Blue Pool<b></h2></a>
 			<h3 style="font-size:1.1rem;">The Blue Pool was built between 1936-1939. It has steps going down to the pool and it includes a 'big' pool and a 'little' pool. </h3>
 			<h3 style="color:#bf3648;">Pacific Drive, Bermagui NSW 2546</h3>
-			<img src="../assets/media/NSW_bermagui.jpg" width="200" height="100">
+			<img src="assets/media/NSW_bermagui.jpg" width="200" height="100">
 			</div>`,
 		},
 		{
@@ -496,7 +496,7 @@ function mapQLD() {
 			</div>
 			<h3 style="color:#bf3648;"> 36 Esplanade, Kings Beach QLD 4551</h3>
 			<div>
-			<img src="../assets/media/QLD_kingsbeach.jpeg" width="200" height="100">
+			<img src="assets/media/QLD_kingsbeach.jpeg" width="200" height="100">
 			</div>
 			<div><a href="https://www.queensland.com/us/en/things-to-do/attractions/p-56b2616e2880253d74c49f3c-kings-beach-beachfront-salt-water-pool.html" target="_blank">Image source</a>
 			</div>
@@ -596,7 +596,7 @@ function mapWA() {
 			<h3 style="color:#bf3648;">West Coast Drive,
 			North Beach, Perth, WA 6020</h3>
 			<div>
-			<img src="../assets/media/WA_mettams.jpeg" width="200" height="100">
+			<img src="assets/media/WA_mettams.jpeg" width="200" height="100">
 			</div>
 			<div><a href="https://visitperth.com/see-and-do/beaches/mettams-pool" target="_blank">Image source</a>
 			</div>`,
@@ -700,7 +700,7 @@ function mapSA() {
 			</div>
 			<h3 style="color:#bf3648;">36 Alfred Terrace, Streaky Bay SA 5680</h3>
 			<div>
-			<img src="../assets/media/SA_streakybay.jpg" width="200" height="100">
+			<img src="assets/media/SA_streakybay.jpg" width="200" height="100">
 			</div>
 			<div><a href="https://streakybay.com.au/explore/attractions-activities/cycle-swim-get-fit/" target="_blank">Image source</a>
 			</div>`,
@@ -779,7 +779,7 @@ function mapVIC() {
 			imageIcon:
 				"https://img.icons8.com/clouds/100/000000/outdoor-swimming-pool.png",
 			content: `
-			<h1>Victoria</h1><h3 style="font-size:1.2rem;">Info still to come...</h3>`,
+			<h1>Victoria</h1><h3 style="font-size:1.2rem;">While Victoria doesn't have a plethora of ocean pools, it is home to some vintage beauties, namely the Brighton Sea Baths and Eastern Beach Baths, located in Geelong.</h3>`,
 		},
 		{
 			// Brighton Baths
@@ -798,6 +798,17 @@ function mapVIC() {
 			</div>
 			<div><a href="https://www.swimmersdaily.com/2020/10/25/what-its-like-to-swim-at-the-brighton-baths/" target="_blank">Image source</a>
 			</div>
+			`,
+		},
+		{
+			location: { lat: -38.67340979467835, lng: 145.6192479426571 },
+			content: `	<a href="https://www.visitbasscoast.com.au/cape-paterson-beaches" target="_blank"><h3>Cape Paterson Bay Rockpool</h3></a>
+			`,
+		},
+		{
+			location: { lat: -38.14641969966145, lng: 144.37087759038008 },
+			content: `
+			<a href="https://vintagevictoria.net.au/eastern-beach-baths-geelong/" target="_blank"><h3>Eastern Beach Baths</h3></a>
 			`,
 		},
 	];
@@ -863,7 +874,7 @@ function mapNT() {
 			location: { lat: -19.535990044685192, lng: 133.37768771047277 },
 			imageIcon:
 				"https://img.icons8.com/clouds/100/000000/outdoor-swimming-pool.png",
-			content: `<h1>Northern Territory</h1><h3 style="font-size:1.2rem;">Info still to come...</h3>`,
+			content: `<h1>Northern Territory</h1><h3 style="font-size:1.2rem;">Logic would dictate a greater number of ocean pools in this stunning part of Australia, given the ominous presence of stingers, crocs and sharks in the crystal blue waters of the Northern Territory. The research undertaken to produce this website only produced one spot, which incidentally has become known as 'Darwin's safest swimming beach'!</h3>`,
 		},
 		{
 			// Darwin Recreation Lagoon
@@ -878,7 +889,7 @@ function mapNT() {
 			</div>
 			<h3 style="color:#bf3648;">Darwin Waterfont Precinct Recreational Lagoon, Kitchener Dr, Darwin City NT 0800</h3>
 			<div>
-			<img src="../assets/media/NT_darwin.jpeg" width="200" height="100">
+			<img src="assets/media/NT_darwin.jpeg" width="200" height="100">
 			</div>
 			<div><a href="https://www.davidwallphoto.com/detail/15499-Recreation-Lagoon,-Darwin-Waterfront-Precinct,-Darwin,-Northern-Territory,-Australia.html" target="_blank">Image source</a>
 			</div>`,
