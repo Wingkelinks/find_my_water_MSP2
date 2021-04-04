@@ -794,7 +794,7 @@ function mapVIC() {
 			</div>
 			<h3 style="color:#bf3648;">36 Alfred Terrace, Streaky Bay SA 5680</h3>
 			<div>
-			<img src="../assets/media/VIC_brighton.jpeg" width="200" height="100">
+			<img src="assets/media/VIC_brighton.jpeg" width="200" height="100">
 			</div>
 			<div><a href="https://www.swimmersdaily.com/2020/10/25/what-its-like-to-swim-at-the-brighton-baths/" target="_blank">Image source</a>
 			</div>

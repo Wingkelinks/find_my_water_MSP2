@@ -26,6 +26,16 @@
 
 		<link rel="stylesheet" href="assets/css/style.css" />
 		<link rel="stylesheet" href="assets/css/media.css" />
+
+		<script
+			type="text/javascript"
+			src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"
+		></script>
+		<script type="text/javascript">
+			(function () {
+				emailjs.init("user_D2850A0j8A0eJtPIYhtrX");
+			})();
+		</script>
 		<title>Find My Water</title>
 	</head>
 	<body>
@@ -71,7 +81,7 @@
 						<i class="fas fa-swimmer f2"></i>
 					</div>
 				</div>
-				<form action="#" method="POST" class="w-100">
+				<form class="w-100" onsubmit="return sendMail(this);">
 					<div class="mt3 white">
 						<input
 							type="text"
@@ -104,9 +114,9 @@
 							name="Phone"
 						/>
 						<textarea
-							name="Message"
+							name="message"
 							required
-							id="Message"
+							id="message"
 							placeholder="Enter Message"
 							class="br2 mt3 pa2 pb5-m pb6-l input-reset ba bg-near-white w-100"
 						></textarea>
@@ -115,7 +125,7 @@
 						type="submit"
 						class="b white mt3 br3 ph5 pv2 input-reset ba b--white-025 bw1 shadow-hover pointer f4-l ttu dib w-100"
 					>
-						Send
+						Send Your Message
 					</button>
 				</form>
 			</div>
@@ -178,5 +188,6 @@
 		</footer>
 		<!-- /. Footer -->
 		<script src="assets/js/menu.js"></script>
+		<script src="assets/js/email.js"></script>
 	</body>
 </html>
