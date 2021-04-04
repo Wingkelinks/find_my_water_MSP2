@@ -69,7 +69,7 @@ function mapNSW() {
 			</div>
 			<h3 style="color:#bf3648;">Main St, Black Head NSW 2430</h3>
 			<div>
-			<img src="../assets/media/NSW_blackhead_nl.jpg" width="200" height="100">
+			<img src="assets/media/NSW_blackhead_nl.jpg" width="200" height="100">
 			</div>
 			<div><a href="https://www.theguardian.com/lifeandstyle/ng-interactive/2020/jan/21/water-worlds-the-magic-of-new-south-wales-ocean-pools" target="_blank">Image source</a>
 			</div>`,
@@ -97,7 +97,7 @@ function mapNSW() {
 			</div>
 			<h3 style="color:#bf3648;">Marine Parade, Yamba NSW 2464</h3>
 			<div>
-			<img src="../assets/media/NSW_yamba_nl.jpg" width="200" height="100">
+			<img src="assets/media/NSW_yamba_nl.jpg" width="200" height="100">
 			</div>
 			<div><a href="https://www.theguardian.com/lifeandstyle/ng-interactive/2020/jan/21/water-worlds-the-magic-of-new-south-wales-ocean-pools" target="_blank">Image source</a>
 			</div>`,
@@ -127,7 +127,7 @@ function mapNSW() {
 			</div>
 			<h3 style="color:#bf3648;">3a Ocean St, Merewether NSW 2291</h3>
 			<div>
-			<img src="../assets/media/NSW_merewether.jpeg" width="200" height="100">
+			<img src="assets/media/NSW_merewether.jpg" width="200" height="100">
 			</div>
 			<div><a href="https://www.newcastleherald.com.au/story/1887282/merewether-baths-upgrade-in-limbo/https://www.newcastleherald.com.au/story/1887282/merewether-baths-upgrade-in-limbo/" target="_blank">Image source</a>
 			</div>`,
