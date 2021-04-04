@@ -151,9 +151,14 @@ li {
 /* ---------------------------- About Section */
 #about-section {
 	display: flex;
+	flex-wrap: nowrap;
 	min-height: 100vh;
 	flex-direction: row;
 	justify-content: space-evenly;
+}
+
+#about-section .about-image {
+	padding: 1rem;
 }
 
 #about-section,

@@ -32,11 +32,11 @@
 		text-align: center;
 	}
 
-	#video-section.brand-container h1 {
+	#video-section .brand-container h1 {
 		font-size: 4.5rem;
 	}
 
-	#video-section.brand-container i {
+	#video-section .brand-container i {
 		font-size: 3.5rem;
 	}
 
@@ -67,5 +67,11 @@
 	#map-section .instructions {
 		grid-column-start: span 2;
 		padding-top: 1.5rem;
+	}
+
+	#about-section {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
 	}
 }
