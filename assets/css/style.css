@@ -175,6 +175,40 @@ a.btn:hover {
 	width: 100%;
 }
 
+/* Scroll down animation */
+#video-section .scroll-down {
+	display: flex;
+	flex-direction: column;
+	margin-top: 6rem;
+	align-items: center;
+	color: #9cff72;
+}
+
+#video-section .scroll-down i {
+	-moz-animation: bounce 2s infinite;
+	-webkit-animation: bounce 2s infinite;
+	animation: bounce 2s infinite;
+	padding: 1rem;
+}
+
+/* Code snippet - https://codepen.io/bisaillonyannick/pen/pvZeGg */
+@keyframes bounce {
+	0%,
+	20%,
+	50%,
+	80%,
+	100% {
+		transform: translateY(0);
+	}
+	40% {
+		transform: translateY(-30px);
+	}
+	60% {
+		transform: translateY(-15px);
+	}
+}
+/* Scroll down animation */
+
 /* ---------------------------- About Section */
 #about-section {
 	display: flex;
