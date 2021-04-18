@@ -1,4 +1,4 @@
-/* Responsive Navigation */
+
 
 /* When the screen is less than 700 pixels wide, hide all links, except for the last one (hamburger bar). */
 
@@ -30,7 +30,8 @@
 		float: none;
 		display: block;
 		text-align: center;
-	} 
+		font-size: 1.2rem;
+	}
 
 	#video-section .brand-container h1 {
 		font-size: 4.5rem;
@@ -40,7 +41,7 @@
 		font-size: 1.2rem;
 	}
 
-	#video-section .brand-container i {
+	#video-section .brand-container span {
 		font-size: 3.5rem;
 	}
 
@@ -51,6 +52,10 @@
 }
 
 @media screen and (max-width: 1000px) {
+	#navigation a {
+		font-size: 1.2rem;
+	}
+
 	/* Map section - change to grid layout on screens smaller than 1000px wide */
 
 	#map-section {
