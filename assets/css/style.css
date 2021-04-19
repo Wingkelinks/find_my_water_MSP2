@@ -9,33 +9,27 @@ li {
 	font-family: "Pangolin", cursive;
 }
 
-/* ---------------------------- Blue color pallete */
+/* ---------------------------- color pallete */
 .test-classes {
-	color: #36a2bd;
-	color: #023e8a;
-	color: #0077b6;
-	color: #0096c7;
-	color: #00b4d8;
-	color: #48cae4;
-	color: #90e0ef;
-	color: #ade8f4;
-	color: #caf0f8;
-}
-
-/* ---------------------------- Complimentary color pallete */
-.test-classes {
-	color: #bf36a4;
-	color: #a4bf36;
-	color: #36a2bd;
-	color: #bf7f36;
-	color: #bf3648;
+	color: #70ff8d;
+	color: #709bff;
+	color: #ffa570;
+	color: #faff70;
+	color: #ffd470;
+	color: #ff709b;
+	color: #ff70e2;
+	color: #70faff;
+	color: #d470ff;
+	color: #0047ec;
+	color: #001034;
+	color: #0037b8;
 }
 
 /* ---------------------------- Bottom line styles */
 .bottom-line {
 	height: 2px;
 	width: 3rem;
-	background: #ff428e;
+	background: #ff70e2;
 	display: block;
 	margin: 0 auto 1rem auto;
 }
@@ -43,7 +37,7 @@ li {
 .bottom-line2 {
 	height: 2px;
 	width: 3rem;
-	background: #023e8a;
+	background: #0047ec;
 	display: block;
 	margin: 0 auto 1rem auto;
 }
@@ -51,7 +45,7 @@ li {
 .bottom-line3 {
 	height: 2px;
 	width: 3rem;
-	background: #bf7f36;
+	background: #ffa570;
 	display: block;
 	margin: 0 auto 1rem auto;
 }
@@ -61,7 +55,7 @@ li {
 /* Reference: w3schools.com (slide down bar & responsive nav documentation) */
 
 #navigation {
-	background-color: #72ffd5;
+	background-color: #70ff8d;
 	top: -82px; /* Hide the navbar 82 px outside of the top view */
 	width: 100%; /* Full width */
 	transition: top 0.4s; /* Transition effect when sliding down (and up) */
@@ -74,7 +68,7 @@ li {
 /* Style the links inside the navigation bar */
 #navigation a {
 	display: block;
-	color: #074bec;
+	color: #0047ec;
 	font-weight: bold;
 	text-transform: uppercase;
 	text-align: center;
@@ -87,15 +81,15 @@ li {
 /* Style the active class in navbar */
 #navigation .active,
 a.btn:hover {
-	background-color: #e8fff8;
-	color: #ff8f72;
+	background-color: #ffff;
+	color: #ffa570;
 	border-radius: 1rem;
 }
 
 #navigation .logo a {
 	float: left;
 	font-family: "Bungee Shade", cursive;
-	color: #074bec;
+	color: #0047ec;
 }
 
 #navigation .logo span {
@@ -146,13 +140,13 @@ a.btn:hover {
 	font-family: "Bungee Shade", cursive;
 	margin: 15px;
 	z-index: 2;
-	color: #ff8f72;
+	color: #ffa570;
 }
 
 #video-section .brand-container h2 {
 	z-index: 2;
 	font-family: "montserrat", sans-serif;
-	color: #ff8f72;
+	color: #ffa570;
 	font-size: 1.7rem;
 	font-weight: 900;
 	text-align: center;
@@ -161,11 +155,11 @@ a.btn:hover {
 #video-section .brand-container span {
 	font-size: 5.5rem;
 	z-index: 1;
-	color: #ff8f72;
+	color: #ffa570;
 }
 
 #video-section .brand-container span:hover {
-	color: #074bec;
+	color: #0047ec;
 }
 
 .video-container {
@@ -181,14 +175,16 @@ a.btn:hover {
 	flex-direction: column;
 	margin-top: 6rem;
 	align-items: center;
-	color: #9cff72;
+	color: #70ff8d;
 }
 
-#video-section .scroll-down i {
+#video-section .scroll-down a {
 	-moz-animation: bounce 2s infinite;
 	-webkit-animation: bounce 2s infinite;
 	animation: bounce 2s infinite;
 	padding: 1rem;
+	text-decoration: none;
+	color: #70ff8d;
 }
 
 /* Code snippet - https://codepen.io/bisaillonyannick/pen/pvZeGg */
@@ -248,7 +244,7 @@ div#map {
 	flex-direction: column;
 	height: 100vh;
 	width: 40%;
-	background-color: #ffd572;
+	background-color: #ffd470;
 }
 
 #map-section .instructions {
@@ -257,11 +253,11 @@ div#map {
 
 #map-section .categories-container button {
 	font-family: "pangolin", cursive;
-	color: #d572ff;
+	color: #ff70e2;
 	width: 100%;
 	height: 4rem;
-	border: 1px solid #074bec;
-	background-color: #eef5ff;
+	border: 1px solid #0047ec;
+	background-color: #ebf1ff;
 	border-radius: 0.5rem;
 	margin: 0.4rem 0;
 }
@@ -272,8 +268,13 @@ div#map {
 	margin-top: 8rem;
 }
 
-#topspots-section > div.topspots-heading.tc > h3 {
+#topspots-section .topspots-heading h3 {
 	font-family: "Bungee Shade", cursive;
+	color: #001034;
+}
+
+#topspots-section .topspots-heading p {
+	color: #001034;
 }
 
 /* Overide Tachyon z-index class to position images behind nav on scroll */
@@ -311,15 +312,58 @@ textarea {
 /* Overide tachyon styling to center button */
 #contact-section button {
 	font-family: "pangolin", cursive;
-	background-color: #bf7f36;
-	color: #023e8a;
+	background-color: #ffa570;
+	color: #0047ec;
 }
 
 #contact-section button:hover {
-	background-color: #023e8a;
-	color: #bf7f36;
+	background-color: #0047ec;
+	color: #ffa570;
 }
 
+/* The Modal (background) */
+.modal {
+	display: none; /* Hidden by default */
+	position: fixed; /* Stay in place */
+	z-index: 1; /* Sit on top */
+	left: 0;
+	top: 0;
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+	overflow: auto; /* Enable scroll if needed */
+	background-color: rgb(0, 0, 0); /* Fallback color */
+	background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+/* https://www.w3schools.com/howto/howto_css_modals.asp */
+
+.modal-content {
+	background-color: #faff70;
+	margin: 15% auto; /* 15% from the top and centered */
+	padding: 20px;
+	border: 1px solid #fff;
+	border-radius: 1.5rem;
+	width: 80%; /* Could be more or less, depending on screen size */
+	font-size: 1.3rem;
+	text-transform: uppercase;
+	color: #001034;
+}
+
+/* The Close Button */
+.close {
+	color: #ff709b;
+	float: right;
+	font-size: 2.7rem;
+	font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+	color: #001034;
+	text-decoration: none;
+	cursor: pointer;
+}
 /* --------------------------- Contact Page */
 
 /* --------------------------- News Page */
@@ -336,6 +380,6 @@ textarea {
 /* ---------------------------- Footer */
 
 footer {
-	background-color: #ff72e3;
+	background-color: #ff70e2;
 	position: sticky;
 }
