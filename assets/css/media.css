@@ -1,6 +1,28 @@
+/* For widths between 250px and 700px */
+@media screen and (max-width: 700px) and (min-width: 250px) {
+	#video-section .brand-container h1 {
+		font-size: 4rem !important;
+		padding-top: 2rem;
+	}
 
+	#video-section .brand-container h2 {
+		font-size: 0.8rem;
+	}
 
-/* When the screen is less than 700 pixels wide, hide all links, except for the last one (hamburger bar). */
+	#video-section .brand-container span {
+		font-size: 3.5rem;
+	}
+
+	#video-section .scroll-down {
+		margin-top: 1.5rem;
+	}
+
+	#about-section .about-title {
+		font-size: 2rem;
+	}
+}
+
+/* For widths less than 700px wide, hide all links, except for the last one (hamburger bar). */
 
 @media screen and (max-width: 700px) {
 	#navigation a:not(:last-child) {
@@ -51,6 +73,7 @@
 	}
 }
 
+/* For widths less than 1000px */
 @media screen and (max-width: 1000px) {
 	#navigation a {
 		font-size: 1.2rem;
