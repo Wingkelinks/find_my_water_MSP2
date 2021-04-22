@@ -15,15 +15,11 @@
 
 	#video-section .scroll-down {
 		margin-top: 1.5rem;
+		font-size: 0.8rem;
 	}
 
 	#about-section .about-title {
 		font-size: 2rem;
-	}
-
-	/* Test touch-action on map buttons */
-	#categ-1 {
-		touch-action: pan-y;
 	}
 }
 
@@ -76,11 +72,6 @@
 		display: flex;
 		flex-direction: column;
 	}
-
-	/* Test touch-action on map buttons */
-	/* #categ-1 {
-		touch-action: pan-y;
-	} */
 }
 
 /* For widths less than 1000px */
