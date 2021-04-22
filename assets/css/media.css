@@ -20,6 +20,11 @@
 	#about-section .about-title {
 		font-size: 2rem;
 	}
+
+	/* Test touch-action on map buttons */
+	#categ-1 {
+		touch-action: pan-y;
+	}
 }
 
 /* For widths less than 700px wide, hide all links, except for the last one (hamburger bar). */
@@ -70,6 +75,11 @@
 	#about-section {
 		display: flex;
 		flex-direction: column;
+	}
+
+	/* Test touch-action on map buttons */
+	#categ-1 {
+		touch-action: pan-y;
 	}
 }
 
