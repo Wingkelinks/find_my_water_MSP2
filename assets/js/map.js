@@ -37,7 +37,7 @@ function scrollFunction() {
 function mapNSW() {
 	var NSW = { lat: -32.63995735777177, lng: 146.131786144861 };
 	var map = new google.maps.Map(document.getElementById("map"), {
-		zoom: 6,
+		zoom: 5,
 		center: NSW,
 		mapId: "c43ed644e130993f",
 	});
@@ -473,7 +473,7 @@ function scrollFunction() {
 function mapQLD() {
 	var QLD = { lat: -22.993157431425242, lng: 145.44954722595563 };
 	var map = new google.maps.Map(document.getElementById("map"), {
-		zoom: 6,
+		zoom: 5,
 		center: QLD,
 		mapId: "c43ed644e130993f",
 	});
