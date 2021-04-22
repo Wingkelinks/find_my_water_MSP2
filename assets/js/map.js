@@ -4,6 +4,9 @@
 // Google Maps API documentation
 // Change marker icon: https://icons8.com/
 
+// When the user scrolls down 20px from the top of the document, slide down the navbar
+// When the user scrolls to the top of the page, slide up the navbar (88px out of the top view)
+
 // Set default map to Australia
 function initMap() {
 	//Map options
@@ -14,13 +17,22 @@ function initMap() {
 			lng: 134.70932442476536,
 		},
 		mapId: "c43ed644e130993f",
+		streetView: false,
 	};
 
 	//Default map of Australia
 	var map = new google.maps.Map(document.getElementById("map"), options);
 }
+
 // Set map to New South Wales on button click
-document.getElementById("categ-1").addEventListener("click", mapNSW);
+document
+	.getElementById("categ-1")
+	.addEventListener("click", mapNSW, scrollFunction);
+
+function scrollFunction() {
+	// Make map scroll into view on button click
+	map.scrollIntoView();
+}
 
 function mapNSW() {
 	var NSW = { lat: -32.63995735777177, lng: 146.131786144861 };
@@ -450,7 +462,13 @@ function mapNSW() {
 }
 
 // Set map to Queensland on button click
-document.getElementById("categ-2").addEventListener("click", mapQLD);
+document
+	.getElementById("categ-2")
+	.addEventListener("click", mapQLD, scrollFunction);
+
+function scrollFunction() {
+	map.scrollIntoView();
+}
 
 function mapQLD() {
 	var QLD = { lat: -22.993157431425242, lng: 145.44954722595563 };
@@ -549,7 +567,13 @@ function mapQLD() {
 }
 
 // Set map to Western Australia on button click
-document.getElementById("categ-3").addEventListener("click", mapWA);
+document
+	.getElementById("categ-3")
+	.addEventListener("click", mapWA, scrollFunction);
+
+function scrollFunction() {
+	map.scrollIntoView();
+}
 
 function mapWA() {
 	var WA = { lat: -26.40935212833484, lng: 122.01047659269663 };
@@ -643,7 +667,13 @@ function mapWA() {
 }
 
 // Set map to South Australia on button click
-document.getElementById("categ-4").addEventListener("click", mapSA);
+document
+	.getElementById("categ-4")
+	.addEventListener("click", mapSA, scrollFunction);
+
+function scrollFunction() {
+	map.scrollIntoView();
+}
 
 function mapSA() {
 	var SA = { lat: -29.989723761048964, lng: 135.1682426288512 };
@@ -752,7 +782,13 @@ function mapSA() {
 }
 
 // Set map to Victoria on button click
-document.getElementById("categ-5").addEventListener("click", mapVIC);
+document
+	.getElementById("categ-5")
+	.addEventListener("click", mapVIC, scrollFunction);
+
+function scrollFunction() {
+	map.scrollIntoView();
+}
 
 function mapVIC() {
 	var VIC = { lat: -36.99060802458916, lng: 143.81059294870514 };
@@ -848,7 +884,13 @@ function mapVIC() {
 }
 
 // Set map to Northern Territory on button click
-document.getElementById("categ-6").addEventListener("click", mapNT);
+document
+	.getElementById("categ-6")
+	.addEventListener("click", mapNT, scrollFunction);
+
+function scrollFunction() {
+	map.scrollIntoView();
+}
 
 function mapNT() {
 	var NT = { lat: -19.535990044685192, lng: 133.37768771047277 };

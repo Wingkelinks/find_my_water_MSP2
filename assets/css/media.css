@@ -78,9 +78,9 @@
 	}
 
 	/* Test touch-action on map buttons */
-	#categ-1 {
+	/* #categ-1 {
 		touch-action: pan-y;
-	}
+	} */
 }
 
 /* For widths less than 1000px */
