@@ -17,6 +17,7 @@ function sendMail(contactForm) {
 	return false; // To block from loading a new page
 }
 
+//
 // https://www.w3schools.com/howto/howto_css_modals.asp
 // Get the modal
 var modal = document.getElementById("alertModal");
@@ -27,12 +28,12 @@ var btn = document.getElementById("sendBtn");
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
 
-// When the user clicks on the button, open the modal
+// When the user clicks on the send button, open the modal
 btn.onclick = function () {
 	modal.style.display = "block";
 };
 
-// When the user clicks on <span> (x), close the modal
+// When the user clicks on X, close the modal
 span.onclick = function () {
 	modal.style.display = "none";
 };
