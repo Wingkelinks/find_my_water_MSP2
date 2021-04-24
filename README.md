@@ -2,7 +2,7 @@
 
 ###### Code Institute MS2 / Interactive Front-End Development
 
-An interactive and responsive, multi-page website with the primary function of enabling users to search and locate existing tidal/ocean pools in and around Australia.
+An interactive and responsive, multi-page website with the primary function of enabling users to search and locate existing tidal/ocean pools along Australian coastlines.
 
 ## UX
 
@@ -89,7 +89,7 @@ The primary purpose of the website is to build an attractive and functional site
 
 ### 4. Skeleton
 
-- Wireframes showing layout and responsive design: [Wireframes]()
+- Wireframes showing layout and responsive design: [Wireframes](/Users/whitneyturner/Desktop/find_my_water_MSP2/Wireframes.pdf)
 
 ### 5. Surface
 
@@ -129,10 +129,11 @@ The primary purpose of the website is to build an attractive and functional site
 
 - A Footer on all pages, with links to social media and copyright information. 
 
-### Features Left to Implement
+### Desirable Features Left to Implement
 
 - A login/user profile feature.
 - A newsletter/signup feature. 
+- Real crafted social media pages that relate to the topic and correlate with the site. Currently random social pages in use. 
 
 ##
 
@@ -185,10 +186,10 @@ The primary purpose of the website is to build an attractive and functional site
 ### [Lighthouse](https://developers.google.com/web/tools/lighthouse)
 
 - Used to check performance, accessibility and SEO potential of the website.
-  - Overall performance: 
-  - Accessibility: 
-  - Best Practices: 
-  - SEO: 
+  - Overall performance: 77%
+  - Accessibility: 90%
+  - Best Practices: 93%
+  - SEO: 92%
 
 ### [Mobile-Friendly Test](https://search.google.com/test/mobile-friendly)
 
@@ -199,7 +200,7 @@ The primary purpose of the website is to build an attractive and functional site
 ### [Web Page Test](https://www.webpagetest.org/)
 
 - This site tested the website's performance.
-  - Load speed:
+  - Load speed: 12.243s
 
 ### Browser compatability 
 
@@ -212,12 +213,16 @@ The site has been tested across the following browsers, to ensure cross compatab
 
 ###
 
-## Debugging process & known bugs/issues
+## Known bugs/issues
 
-- Incorporating Marker Clustering into the map - currently unresolved issue. 
-- 
+- Incorporating Marker Clustering into the map - currently unresolved. 
+- Hamburger bar requires a double click to dropdown - unfortunately unable to resolve this issue within time. 
+- Info windows can only be closed by clicking on the 'x' in the top right corner. Attemted to add a feature that allows user to click anywhere outside the box to close, but it didn't work in time. 
 
+## Resolved bugs/issues
 
+- Video not playing on mobile devices - fixed by adding *playsinline* attribute to video element. 
+- Problems with two functions running on navigation menu (repsonsive and slide down) - fixed by seperating into 2 different JS files. 
 
 ## Deployment
 
