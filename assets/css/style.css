@@ -173,7 +173,7 @@ a.btn:hover {
 #video-section .scroll-down {
 	display: flex;
 	flex-direction: column;
-	margin-top: 6rem;
+	margin-top: 4rem;
 	align-items: center;
 	color: #70ff8d;
 }
@@ -243,7 +243,6 @@ div#map {
 #map-section .categories-container {
 	display: flex;
 	flex-direction: column;
-	height: 100vh;
 	width: 40%;
 	background-color: #ffd470;
 }
