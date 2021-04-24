@@ -89,7 +89,7 @@ The primary purpose of the website is to build an attractive and functional site
 
 ### 4. Skeleton
 
-- Wireframes showing layout and responsive design: [Wireframes](/Users/whitneyturner/Desktop/find_my_water_MSP2/Wireframes.pdf)
+- Wireframes showing layout and responsive design: [Wireframes](https://github.com/Wingkelinks/find_my_water_MSP2/blob/master/Wireframes.pdf)
 
 ### 5. Surface
 
