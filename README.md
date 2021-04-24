@@ -58,7 +58,7 @@ The primary purpose of the website is to build an attractive and functional site
 
 **User interviews/research:**
 
-1. As a user, would you like to have access to a website that enables you to search for tidal/saltwater pools in Australia?
+1. As a user, would you like to have access to a website that enables you to search for ocean/saltwater pools in Australia?
 
    > Yes.
 
@@ -81,11 +81,11 @@ The primary purpose of the website is to build an attractive and functional site
 
 **User interviews post deployment:**
 
-1. One user reported that they'd prefer to see the info window contents displayed differently. This advice was taken onboard, and the layout was changed from paragraph style to list style.  
+1. One user reported that they'd prefer to see the info window contents displayed as dot points. This advice was taken on board, and the layout was changed from paragraph style to list style.  
 
-2. One user reported they'd like to see more colour contrast between the navigation and the rest of the pages. This was taken onboard, and the nav color went from a light blue to the colour it is now - a bright green. 
+2. One user reported they'd like to see more colour contrast between the navigation and the rest of the pages. This was taken on board, and the nav color was changed from a light blue to the colour it is now - a bright green. 
 
-3. Another user reported that when using the map on a mobile device, the UI experience wasn't very good, because the map wasn't immediately visible on a button click - it was up to them to know to scroll down. This issue was fixed by adding some JS with a scrollIntoView function.
+3. Another user reported that when using the map on a mobile device, the UI experience wasn't very good, because the map wasn't immediately visible on button click - it was up to them to know to scroll down. This issue was fixed by adding some JS with a scrollIntoView function.
 
 ### 4. Skeleton
 
@@ -133,7 +133,8 @@ The primary purpose of the website is to build an attractive and functional site
 
 - A login/user profile feature.
 - A newsletter/signup feature. 
-- Real crafted social media pages that relate to the topic and correlate with the site. Currently random social pages in use. 
+- Real crafted social media pages to link in that relate to the topic and correlate with the site. Currently random social pages in use. 
+- A search bar integrated into the map. 
 
 ##
 
@@ -185,11 +186,12 @@ The primary purpose of the website is to build an attractive and functional site
 
 ### [Lighthouse](https://developers.google.com/web/tools/lighthouse)
 
-- Used to check performance, accessibility and SEO potential of the website.
-  - Overall performance: 77%
-  - Accessibility: 90%
-  - Best Practices: 93%
-  - SEO: 92%
+- Used to check performance, accessibility and SEO potential on all pages of the website.
+*Across all pages, averages ranged from:*
+  - Performance: 75% - 95%
+  - Accessibility: 90% and above
+  - Best Practices: 90% and above
+  - SEO: 90% and above 
 
 ### [Mobile-Friendly Test](https://search.google.com/test/mobile-friendly)
 
@@ -218,6 +220,7 @@ The site has been tested across the following browsers, to ensure cross compatab
 - Incorporating Marker Clustering into the map - currently unresolved. 
 - Hamburger bar requires a double click to dropdown - unfortunately unable to resolve this issue within time. 
 - Info windows can only be closed by clicking on the 'x' in the top right corner. Attemted to add a feature that allows user to click anywhere outside the box to close, but it didn't work in time. 
+- On the contact page, there is a modal that tells the user their email has been sent successfully, however there is currently no JS in place to check whether the form has been correctly filled in (apart from all the HTML *required* attributes).
 
 ## Resolved bugs/issues
 
