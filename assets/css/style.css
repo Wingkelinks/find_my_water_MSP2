@@ -9,23 +9,7 @@ li {
 	font-family: "Pangolin", cursive;
 }
 
-/* ---------------------------- color pallete */
-.test-classes {
-	color: #70ff8d;
-	color: #709bff;
-	color: #ffa570;
-	color: #faff70;
-	color: #ffd470;
-	color: #ff709b;
-	color: #ff70e2;
-	color: #70faff;
-	color: #d470ff;
-	color: #0047ec;
-	color: #001034;
-	color: #0037b8;
-}
-
-/* ---------------------------- Bottom line styles */
+/* ---------------------------- Bottom line style */
 .bottom-line {
 	height: 2px;
 	width: 3rem;
@@ -33,23 +17,7 @@ li {
 	display: block;
 	margin: 0 auto 1rem auto;
 }
-
-.bottom-line2 {
-	height: 2px;
-	width: 3rem;
-	background: #0047ec;
-	display: block;
-	margin: 0 auto 1rem auto;
-}
-
-.bottom-line3 {
-	height: 2px;
-	width: 3rem;
-	background: #ffa570;
-	display: block;
-	margin: 0 auto 1rem auto;
-}
-/* ---------------------------- Bottom line styles */
+/* ---------------------------- Bottom line style */
 
 /* ---------------------------- Navigation styling - Home Page */
 /* Reference: w3schools.com (slide down bar & responsive nav documentation) */
