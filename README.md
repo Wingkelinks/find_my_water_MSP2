@@ -154,6 +154,7 @@ The primary purpose of the website is to build an attractive and functional site
 - [FontAwesome](https://fontawesome.com/)
 - [Google Fonts](https://fonts.google.com/)
 - [Material Icons by Google Fonts](https://fonts.google.com/icons)
+- [Icons8](https://icons8.com/) - for custom icons used on map. 
 - [CSS Grid](https://css-tricks.com/snippets/css/complete-guide-grid/): used to create responsive layouts.
 - [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/): used to create responsive layouts.
 - [Balsamiq](https://balsamiq.com/): Wireframing tool used. 
